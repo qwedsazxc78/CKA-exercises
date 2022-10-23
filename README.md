@@ -8,3 +8,6 @@ A set of exercises of CKD - Certified Kubernetes Administrator exam  offered by 
 During the exam, you are allowed to keep only one other browser tab open to refer to official documentation. Make a mental note of the breadcrumb at the start of the excercise section, to quickly locate the relevant document in kubernetes.io. It is recommended that you read the official documents before attempting exercises below it.
 
 [Office CKA Certificate](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/)
+
+
+<a href="https://www.buymeacoffee.com/qwedsazxc78" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>

@@ -1,1 +1,1 @@
-# CKAD-exercises
+# CKA-exercises

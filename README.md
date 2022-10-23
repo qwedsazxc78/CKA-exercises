@@ -18,7 +18,7 @@ During the exam, you are allowed to keep only one other browser tab open to refe
 - [Troubleshooting - 30%]
 - [Cluster Architecture, Installation & Configuration - 25%]
 - [Services & Networking - 20%]
-- [helm](h.helm.md)
+- [Helm]
 
 ## Can I PR? Just write for it
 

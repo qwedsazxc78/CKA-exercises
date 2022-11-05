@@ -1,0 +1,23 @@
+# kubectl config --kubeconfig=user-config view
+# user-config
+# export KUBECONFIG="${KUBECONFIG}:/root/user-config"
+apiVersion: v1
+kind: Config
+preferences: {}
+
+clusters:
+- cluster:
+  name: kubernetes
+
+contexts:
+- context:
+    cluster: kubernetes
+    namespace: default
+    user: martin
+  name: developer
+
+users:
+- name: martin
+  user:
+    client-key: "/root/martin.key"
+    client-certificate: "/root/martin.crt"

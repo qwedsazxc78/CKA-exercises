@@ -14,11 +14,11 @@ During the exam, you are allowed to keep only one other browser tab open to refe
 
 ## Contents
 
-* Storage - 10%
-* Troubleshooting - 30%
-* [Workloads & Scheduling - 15%]
-* [Cluster Architecture, Installation & Configuration - 25%]
-* [Services & Networking - 20%]
+* [Storage - 10%](https://github.com/qwedsazxc78/CKA-exercises/blob/draft/1_Storage.md)
+* [Troubleshooting - 30%](https://github.com/qwedsazxc78/CKA-exercises/blob/draft/2_Troubleshooting.md)
+* [Workloads & Scheduling - 15%](https://github.com/qwedsazxc78/CKA-exercises/blob/draft/3_Workloads_and_Scheduling.md)
+* [Cluster Architecture, Installation & Configuration - 25%](https://github.com/qwedsazxc78/CKA-exercises/blob/draft/4_Cluster_Architecture.md)
+* [Services & Networking - 20%](https://github.com/qwedsazxc78/CKA-exercises/blob/draft/5_Service_and_Networking.md)
 
 ## Contents
 

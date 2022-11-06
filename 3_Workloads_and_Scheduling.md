@@ -11,7 +11,7 @@
 
 ## Awareness of manifest management and common templating tools
 
-Question:
+### Question
 
 * Print the names of all deployments in the admin namespace in the following format: DEPLOYMENT CONTAINER_IMAGE READY_REPLICAS NAMESPACE "deployment name" "container image used" "ready replica count" "Namespace"
 * The data should be sorted by the increasing order of the deployment name.
@@ -25,13 +25,13 @@ deploy1     redis:alpine         1          admin
 <details><summary>Solution</summary>
 <p>
 
-### Concept
+#### Concept
 
 * Check deployment yaml format and use -o query by cli.
 * Note to add --sort-by args in output
 * Output result to file
 
-### Step
+#### Step
 
 Run command to get structure
 

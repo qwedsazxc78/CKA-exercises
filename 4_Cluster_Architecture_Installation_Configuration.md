@@ -17,11 +17,11 @@
 
 <details><summary>Solution</summary><p>
 
-### Concept
+#### Concept
 
 From Kubernetes doc link - https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/
 
-### Step
+#### Step
 
 Control plane
 

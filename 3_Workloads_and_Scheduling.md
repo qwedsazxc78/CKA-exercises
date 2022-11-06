@@ -9,6 +9,87 @@
 * Understand how resource limits can affect Pod scheduling
 * Awareness of manifest management and common templating tools
 
+
+
+## Understand the primitives used to create robust, self-healing, application deployments
+
+### Question
+
+* Create a new deployment called nginx-deploy, with image nginx:1.16 and 1 replica. Next upgrade the deployment to version 1.17 using rolling update.
+
+<details><summary>Solution</summary>
+<p>
+
+#### Concept
+
+* create deployment and maintain version
+
+#### Step
+
+Run command to create and set version
+
+```bash
+k create deploy nginx-deploy --image=nginx:1.16 --replicas=1
+k set image deployment.apps/nginx-deploy nginx=nginx:1.17
+k get deployment.apps/nginx-deploy
+```
+
+</p>
+</details>
+
+
+## Use ConfigMaps and Secrets to configure applications
+
+### Question
+
+* Create a pod called secret-1234 in the admin namespace using the busybox image. The container within the pod should be called secret-admin and should sleep for 4800 seconds.
+* The container should mount a read-only secret volume called secret-volume at the path /etc/secret-volume. The secret being mounted has already been created for you and is called dotfile-secret.
+*
+<details><summary>Solution</summary>
+<p>
+
+#### Concept
+
+* create pod with secret environment.
+
+#### Step
+
+Create yaml to create pod
+
+```bash
+cat <<EOF >pod.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: secret-1234
+  name: secret-1234
+  namespace: admin
+spec:
+  volumes:
+  - name: secret-volume
+    secret:
+      secretName: dotfile-secret
+  containers:
+  - image: busybox
+    name: secret-admin
+    command:
+    - "sh"
+    - "-c"
+    - "sleep 4800"
+    volumeMounts:
+    - name: secret-volume
+      mountPath: /etc/secret-volume
+      readOnly: true
+EOF
+kubectl apply -f pod.yaml
+```
+
+</p>
+</details>
+
+
+
 ## Awareness of manifest management and common templating tools
 
 ### Question

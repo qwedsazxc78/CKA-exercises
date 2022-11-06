@@ -8,3 +8,5 @@
 - Troubleshoot application failure
 - Troubleshoot cluster component failure
 - Troubleshoot networking
+
+## Troubleshoot cluster component failure

@@ -20,7 +20,20 @@ During the exam, you are allowed to keep only one other browser tab open to refe
 * [Cluster Architecture, Installation & Configuration - 25%](https://github.com/qwedsazxc78/CKA-exercises/blob/draft/4_Cluster_Architecture.md)
 * [Services & Networking - 20%](https://github.com/qwedsazxc78/CKA-exercises/blob/draft/5_Service_and_Networking.md)
 
-## Contents
+## Useful Resource
+
+### CKA
+
+* Udemy Course - [Certified Kubernetes Administrator (CKA) with Practice Tests](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/)
+* Github - [alijahnas/CKA-practice-exercises: This is a guide for passing the CNCF Certified Kubernetes Administrator (CKA) with practice exercises.](https://github.com/alijahnas/CKA-practice-exercises)
+* Github - [chadmcrowell/CKA-Exercises: Practice for the Certified Kubernetes Administrator (CKA) Exam](https://github.com/chadmcrowell/CKA-Exercises)
+
+### CKAD
+
+* Udemy Course - [Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)
+* Github - [dgkanatsios/CKAD-exercises: A set of exercises to prepare for Certified Kubernetes Application Developer exam by Cloud Native Computing Foundation](https://github.com/dgkanatsios/CKAD-exercises)
+
+## Template
 
 You can quick start kubernetes yaml configuration from template folder. It provide below type:
 
@@ -32,20 +45,6 @@ You can quick start kubernetes yaml configuration from template folder. It provi
 * service_account.yaml
 * services.yaml
 * user.yaml
-
-## Useful Resource
-
-### CKA
-
-- Udemy Course - [Certified Kubernetes Administrator (CKA) with Practice Tests](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/)
-- Github - [alijahnas/CKA-practice-exercises: This is a guide for passing the CNCF Certified Kubernetes Administrator (CKA) with practice exercises.](https://github.com/alijahnas/CKA-practice-exercises)
-- Github - [chadmcrowell/CKA-Exercises: Practice for the Certified Kubernetes Administrator (CKA) Exam](https://github.com/chadmcrowell/CKA-Exercises)
-
-### CKAD
-
-- Udemy Course - [Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)
-- Github - [dgkanatsios/CKAD-exercises: A set of exercises to prepare for Certified Kubernetes Application Developer exam by Cloud Native Computing Foundation](https://github.com/dgkanatsios/CKAD-exercises)
-
 
 ## Can I PR? Just Do it
 

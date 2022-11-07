@@ -112,8 +112,8 @@ kubectl get pods -o wide
 
 From Kubernetes doc link:
 
-- backup: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster
-- restore: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#restoring-an-etcd-cluster
+* backup: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster
+* restore: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#restoring-an-etcd-cluster
 
 #### Step
 
@@ -136,7 +136,6 @@ snapshot save /opt/etcd-backup.db
 
 </p></details>
 
-
 * Take the restore of ETCD at the location /opt/etcd-backup.db on the controlplane node.
 
 <details><summary>Solution</summary><p>
@@ -145,8 +144,8 @@ snapshot save /opt/etcd-backup.db
 
 From Kubernetes doc link:
 
-- backup: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster
-- restore: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#restoring-an-etcd-cluster
+* backup: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster
+* restore: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#restoring-an-etcd-cluster
 
 #### Step
 
@@ -174,8 +173,8 @@ sed -i "s|var/lib/etcd|var/lib/etcd-from-backup|i" /etc/kubernetes/manifests/etc
 
 From Kubernetes doc link:
 
-- backup: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster
-- restore: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#restoring-an-etcd-cluster
+* backup: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster
+* restore: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#restoring-an-etcd-cluster
 
 #### Step
 

@@ -2,12 +2,12 @@
 
 ## Cover Range
 
-- Evaluate cluster and node logging
-- Understand how to monitor applications
-- Manage container stdout & stderr logs
-- Troubleshoot application failure
-- Troubleshoot cluster component failure
-- Troubleshoot networking
+* Evaluate cluster and node logging
+* Understand how to monitor applications
+* Manage container stdout & stderr logs
+* Troubleshoot application failure
+* Troubleshoot cluster component failure
+* Troubleshoot networking
 
 ## Troubleshoot cluster component failure
 
@@ -31,6 +31,7 @@ Run command to get structure
 ```bash
 cat ~/admin.kubeconfig
 ```
+
 ```yaml
 apiVersion: v1
 clusters:
@@ -60,6 +61,7 @@ You can use sed to replace specific word to you.
 sed -i 's|https://controlplane:4380|https://controlplane:6443|g' /root/CKA/admin.kubeconfig
 cat ~/admin.kubeconfig
 ```
+
 ```yaml
 apiVersion: v1
 clusters:

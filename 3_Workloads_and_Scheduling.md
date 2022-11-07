@@ -9,8 +9,6 @@
 * Understand how resource limits can affect Pod scheduling
 * Awareness of manifest management and common templating tools
 
-
-
 ## Understand the primitives used to create robust, self-healing, application deployments
 
 ### Question
@@ -37,14 +35,13 @@ k get deployment.apps/nginx-deploy
 </p>
 </details>
 
-
 ## Use ConfigMaps and Secrets to configure applications
 
 ### Question
 
 * Create a pod called secret-1234 in the admin namespace using the busybox image. The container within the pod should be called secret-admin and should sleep for 4800 seconds.
 * The container should mount a read-only secret volume called secret-volume at the path /etc/secret-volume. The secret being mounted has already been created for you and is called dotfile-secret.
-*
+
 <details><summary>Solution</summary>
 <p>
 
@@ -87,8 +84,6 @@ kubectl apply -f pod.yaml
 
 </p>
 </details>
-
-
 
 ## Awareness of manifest management and common templating tools
 
